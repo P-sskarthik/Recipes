@@ -4,7 +4,7 @@ function VideoModal({ videoUrl, onClose }) {
         <div className="bg-white rounded-xl shadow-2xl p-4 max-w-4xl w-full relative">
           <button
             onClick={onClose}
-            className="absolute top-2 right-4 text-red-500 text-2xl font-bold hover:scale-110 transition"
+            className=" rounded-xl text-3xl bg-red-500 text-white absolute top-2 right-2 p-1 hover:bg-red-600 transition duration-200 ease-in-out"
           >
             ×
           </button>
